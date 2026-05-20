@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5edd8"/>
+      <stop offset="100%" style="stop-color:#e4ddf0"/>
+    </linearGradient>
+    <linearGradient id="lav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a890cc"/>
+      <stop offset="100%" style="stop-color:#6e50a0"/>
+    </linearGradient>
+    <linearGradient id="moss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7aaa62"/>
+      <stop offset="100%" style="stop-color:#3a5a28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo redondeado cottage -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Textura cuadrícula suave -->
+  <g opacity="0.08">
+    <line x1="0" y1="128" x2="512" y2="128" stroke="#8a7560" stroke-width="1.5"/>
+    <line x1="0" y1="256" x2="512" y2="256" stroke="#8a7560" stroke-width="1.5"/>
+    <line x1="0" y1="384" x2="512" y2="384" stroke="#8a7560" stroke-width="1.5"/>
+    <line x1="128" y1="0" x2="128" y2="512" stroke="#8a7560" stroke-width="1.5"/>
+    <line x1="256" y1="0" x2="256" y2="512" stroke="#8a7560" stroke-width="1.5"/>
+    <line x1="384" y1="0" x2="384" y2="512" stroke="#8a7560" stroke-width="1.5"/>
+  </g>
+
+  <!-- Casa/hogar estilo cottage dibujado a mano -->
+  <!-- Techo -->
+  <path d="M156 252 L256 148 L356 252 Z" fill="url(#lav)" stroke="#6e50a0" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Chimenea -->
+  <rect x="290" y="158" width="28" height="52" rx="4" fill="#9a5030" stroke="#7a3818" stroke-width="4"/>
+  <!-- Humo chimenea suave -->
+  <ellipse cx="304" cy="148" rx="8" ry="12" fill="#d4bc94" opacity="0.5"/>
+  <ellipse cx="310" cy="134" rx="6" ry="9" fill="#d4bc94" opacity="0.35"/>
+
+  <!-- Cuerpo de la casa -->
+  <rect x="172" y="248" width="168" height="128" rx="6" fill="#fffdf8" stroke="#d4bc94" stroke-width="5"/>
+
+  <!-- Puerta -->
+  <rect x="232" y="312" width="48" height="64" rx="8" fill="url(#lav)" stroke="#6e50a0" stroke-width="4"/>
+  <!-- Manija puerta -->
+  <circle cx="272" cy="347" r="5" fill="#d4bc94"/>
+
+  <!-- Ventana izquierda -->
+  <rect x="186" y="270" width="44" height="36" rx="6" fill="#e4ddf0" stroke="#a890cc" stroke-width="3.5"/>
+  <line x1="208" y1="270" x2="208" y2="306" stroke="#a890cc" stroke-width="2"/>
+  <line x1="186" y1="288" x2="230" y2="288" stroke="#a890cc" stroke-width="2"/>
+
+  <!-- Ventana derecha -->
+  <rect x="282" y="270" width="44" height="36" rx="6" fill="#e4ddf0" stroke="#a890cc" stroke-width="3.5"/>
+  <line x1="304" y1="270" x2="304" y2="306" stroke="#a890cc" stroke-width="2"/>
+  <line x1="282" y1="288" x2="326" y2="288" stroke="#a890cc" stroke-width="2"/>
+
+  <!-- Flores y hierba a los lados -->
+  <!-- Tallos -->
+  <line x1="148" y1="376" x2="148" y2="340" stroke="#527a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="132" y1="376" x2="132" y2="348" stroke="#527a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="164" y1="376" x2="164" y2="352" stroke="#527a3a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Flores izquierda -->
+  <circle cx="148" cy="334" r="10" fill="#c9bce1" stroke="#8a6eb8" stroke-width="2.5"/>
+  <circle cx="132" cy="342" r="9" fill="#f5e4d8" stroke="#c07848" stroke-width="2.5"/>
+  <circle cx="164" cy="346" r="8" fill="#b0cc9e" stroke="#527a3a" stroke-width="2.5"/>
+
+  <!-- Tallos derecha -->
+  <line x1="364" y1="376" x2="364" y2="340" stroke="#527a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="380" y1="376" x2="380" y2="348" stroke="#527a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="348" y1="376" x2="348" y2="352" stroke="#527a3a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Flores derecha -->
+  <circle cx="364" cy="334" r="10" fill="#c9bce1" stroke="#8a6eb8" stroke-width="2.5"/>
+  <circle cx="380" cy="342" r="9" fill="#f5e4d8" stroke="#c07848" stroke-width="2.5"/>
+  <circle cx="348" cy="346" r="8" fill="#b0cc9e" stroke="#527a3a" stroke-width="2.5"/>
+
+  <!-- Suelo/camino -->
+  <ellipse cx="256" cy="380" rx="140" ry="8" fill="#d4bc94" opacity="0.5"/>
+
+  <!-- Moneda/símbolo financiero integrado suavemente -->
+  <circle cx="256" cy="420" r="28" fill="url(#moss)" stroke="#3a5a28" stroke-width="4"/>
+  <text x="256" y="428" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#fffdf8">$</text>
+
+  <!-- Estrellitas decorativas -->
+  <text x="92" y="120" font-size="22" fill="#a890cc" opacity="0.7">✦</text>
+  <text x="398" y="108" font-size="18" fill="#527a3a" opacity="0.7">✦</text>
+  <text x="420" y="420" font-size="14" fill="#c07848" opacity="0.6">·</text>
+  <text x="80" y="400" font-size="14" fill="#c07848" opacity="0.6">·</text>
+</svg>
